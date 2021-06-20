@@ -6,6 +6,7 @@ target 'QuizCardApp' do
   use_frameworks!
 
   # Pods for QuizCardApp
+  pod 'SwiftLint'
 
   target 'QuizCardAppTests' do
     inherit! :search_paths

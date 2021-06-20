@@ -6,25 +6,51 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SwiftLint;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		02D506B5D839E71E8704F900D5925E37 /* Pods-QuizCardApp-QuizCardAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BE21FC740FCF33A472012DE5BC58E7 /* Pods-QuizCardApp-QuizCardAppUITests-dummy.m */; };
-		253ECA9CA9B90D38D3F042FD6ADD3D53 /* Pods-QuizCardApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA21C41B3250E80A44C8468B2EE007B8 /* Pods-QuizCardApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		339233AB40DD1FEDA18D357574BC86D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		3BB067DC5F6F68BF76F41E2A90CF6E1D /* Pods-QuizCardAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B86E6E4C98C0D75DA1D8FF5F60ED6A4 /* Pods-QuizCardAppTests-dummy.m */; };
-		9451B3F54F44AAC3DC68C119334F23F3 /* Pods-QuizCardApp-QuizCardAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D056477C59DE8EAFC99B5B211BD68BC6 /* Pods-QuizCardApp-QuizCardAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		987C1084805E5CD12FF00FD048EEF812 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		41D8011D9B02C5F53B8D9F2AB5A79464 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6C69806298655D0B53BFF47263BCD7AE /* Pods-QuizCardApp-QuizCardAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BE21FC740FCF33A472012DE5BC58E7 /* Pods-QuizCardApp-QuizCardAppUITests-dummy.m */; };
+		8DFAE9B9A0993BDA2F80D921A2BC8CF8 /* Pods-QuizCardApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A049EB767F6C12CEB6A3BCB12FFA7C /* Pods-QuizCardApp-dummy.m */; };
+		8ED403324BC2FB0B574AAC6E35DB57A9 /* Pods-QuizCardApp-QuizCardAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D056477C59DE8EAFC99B5B211BD68BC6 /* Pods-QuizCardApp-QuizCardAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B1F89E5DA741A7B47FE082750AA8724F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		CD8F4DD5C639094C02CDB434238ECBE3 /* Pods-QuizCardAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 94D682900D6D029D2D597C3D94DBB07F /* Pods-QuizCardAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F3862D946FE9E66FFC0CCBC8633397CA /* Pods-QuizCardApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A049EB767F6C12CEB6A3BCB12FFA7C /* Pods-QuizCardApp-dummy.m */; };
+		D34D7D983B58ED9B0562C79118604664 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FFCEE5A5FB79B0C6916B3A4644A84BF2 /* Pods-QuizCardApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA21C41B3250E80A44C8468B2EE007B8 /* Pods-QuizCardApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6CB520A50CF2722ECF0F5CB008109316 /* PBXContainerItemProxy */ = {
+		52136FACF1D022A7E36EADCE15A23BB8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = DEFA3D43F703C9E08F76A83B3816854E;
 			remoteInfo = "Pods-QuizCardApp";
+		};
+		7380D2AA2FEE02148A1DF42A0C00D4E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
+		};
+		FA9A3E620CA1D3F7134BB366466AB7BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -35,11 +61,13 @@
 		32BF0E0D9D601D43D7D12427C9B7670F /* Pods-QuizCardApp-QuizCardAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuizCardApp-QuizCardAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		39BE92638D23F3C6F0BC424DFA026BBC /* Pods-QuizCardApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuizCardApp.debug.xcconfig"; sourceTree = "<group>"; };
 		3B86E6E4C98C0D75DA1D8FF5F60ED6A4 /* Pods-QuizCardAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QuizCardAppTests-dummy.m"; sourceTree = "<group>"; };
+		3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.debug.xcconfig; sourceTree = "<group>"; };
 		46B0BFBBFDEB9ED10A8C2C4A8F0A3AB1 /* Pods_QuizCardApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QuizCardApp.framework; path = "Pods-QuizCardApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FF4C824494FF2491EC152B436AB360F /* Pods_QuizCardAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QuizCardAppTests.framework; path = "Pods-QuizCardAppTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		629EFAC409CA20B0C3595BE3F1E83FA3 /* Pods-QuizCardAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QuizCardAppTests.modulemap"; sourceTree = "<group>"; };
 		6768074E06C4DD5818C2FC0834C9BB52 /* Pods-QuizCardAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QuizCardAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.release.xcconfig; sourceTree = "<group>"; };
 		924061E67A00F1DAB88777278D7A3C9B /* Pods-QuizCardApp-QuizCardAppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QuizCardApp-QuizCardAppUITests-Info.plist"; sourceTree = "<group>"; };
 		94D682900D6D029D2D597C3D94DBB07F /* Pods-QuizCardAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QuizCardAppTests-umbrella.h"; sourceTree = "<group>"; };
 		99BE21FC740FCF33A472012DE5BC58E7 /* Pods-QuizCardApp-QuizCardAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QuizCardApp-QuizCardAppUITests-dummy.m"; sourceTree = "<group>"; };
@@ -61,11 +89,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9A064712C706C37D51894B5CE95E661F /* Frameworks */ = {
+		359A7F386C74E264FFF26B63C27B64A4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				987C1084805E5CD12FF00FD048EEF812 /* Foundation.framework in Frameworks */,
+				D34D7D983B58ED9B0562C79118604664 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		972341AEC5AC1D6802C2E39CCDA1F2B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41D8011D9B02C5F53B8D9F2AB5A79464 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,14 +110,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1F89E5DA741A7B47FE082750AA8724F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A98CDC7E8A7709D66DC2D4109DC9415C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				339233AB40DD1FEDA18D357574BC86D3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +166,24 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		7FDA596DBE0337ACDFE55A210D54EF26 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */,
+				7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftLint";
+			sourceTree = "<group>";
+		};
+		965877409E01FB3D85D85E90E6B30185 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D96179D43A67C5D5323B0682D32C133C /* SwiftLint */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A3964A81002FC654E8E345FC3534B8A0 /* Pods-QuizCardApp */ = {
 			isa = PBXGroup;
 			children = (
@@ -159,6 +205,7 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				965877409E01FB3D85D85E90E6B30185 /* Pods */,
 				FA03EB0BC8E42754EE14AB281C572AE0 /* Products */,
 				0622EAA87DDE0E6741672006DA19EA00 /* Targets Support Files */,
 			);
@@ -170,6 +217,15 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D96179D43A67C5D5323B0682D32C133C /* SwiftLint */ = {
+			isa = PBXGroup;
+			children = (
+				7FDA596DBE0337ACDFE55A210D54EF26 /* Support Files */,
+			);
+			name = SwiftLint;
+			path = SwiftLint;
 			sourceTree = "<group>";
 		};
 		FA03EB0BC8E42754EE14AB281C572AE0 /* Products */ = {
@@ -185,6 +241,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		7018089479460ACA55C15F78504E519E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFCEE5A5FB79B0C6916B3A4644A84BF2 /* Pods-QuizCardApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9899823E7C390D754658EEADF1A94588 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -193,19 +257,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C6B9319A728AE676AFA35BAFF441B5AA /* Headers */ = {
+		BBEFD58EAE0701D864597F88F5BE2CB4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9451B3F54F44AAC3DC68C119334F23F3 /* Pods-QuizCardApp-QuizCardAppUITests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E9D81D32A35375E45B346FB685BCF28A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				253ECA9CA9B90D38D3F042FD6ADD3D53 /* Pods-QuizCardApp-umbrella.h in Headers */,
+				8ED403324BC2FB0B574AAC6E35DB57A9 /* Pods-QuizCardApp-QuizCardAppUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,16 +270,17 @@
 /* Begin PBXNativeTarget section */
 		BA73BC0EB7D86144C2E7323B3D0EE9EA /* Pods-QuizCardApp-QuizCardAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6E3BEEDD30CA5E49E397B312292D89CD /* Build configuration list for PBXNativeTarget "Pods-QuizCardApp-QuizCardAppUITests" */;
+			buildConfigurationList = AC949C1001A0C4EFCB96AF19304A97EC /* Build configuration list for PBXNativeTarget "Pods-QuizCardApp-QuizCardAppUITests" */;
 			buildPhases = (
-				C6B9319A728AE676AFA35BAFF441B5AA /* Headers */,
-				7489BDBB945A645E7209EB9EC6918717 /* Sources */,
-				9A064712C706C37D51894B5CE95E661F /* Frameworks */,
-				DA5A50A6D86DD7D4459BA7550F3C9134 /* Resources */,
+				BBEFD58EAE0701D864597F88F5BE2CB4 /* Headers */,
+				C4776487704963A163EDBC0D26EFB38E /* Sources */,
+				972341AEC5AC1D6802C2E39CCDA1F2B3 /* Frameworks */,
+				F5E631ABBE4389CCBB627E9D63051594 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0EAA8916F70ABA8DA3DF64976300553C /* PBXTargetDependency */,
 			);
 			name = "Pods-QuizCardApp-QuizCardAppUITests";
 			productName = "Pods-QuizCardApp-QuizCardAppUITests";
@@ -232,16 +289,17 @@
 		};
 		DEFA3D43F703C9E08F76A83B3816854E /* Pods-QuizCardApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B69E22A460D3B4F4387F8E5F53DBB778 /* Build configuration list for PBXNativeTarget "Pods-QuizCardApp" */;
+			buildConfigurationList = FF7AC9CA8604FBFA06E3A426F3292763 /* Build configuration list for PBXNativeTarget "Pods-QuizCardApp" */;
 			buildPhases = (
-				E9D81D32A35375E45B346FB685BCF28A /* Headers */,
-				A4C2AEFF1CE0EE8F6E4EC00A66C53B08 /* Sources */,
-				A98CDC7E8A7709D66DC2D4109DC9415C /* Frameworks */,
-				1029A9503456A579AD7B78E845A9AA8D /* Resources */,
+				7018089479460ACA55C15F78504E519E /* Headers */,
+				3C3A346111274CF33D92212FF43861ED /* Sources */,
+				359A7F386C74E264FFF26B63C27B64A4 /* Frameworks */,
+				0D05109153E189A219B004C86D6E6E47 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				191DACFCE1550069B5793C5BA81FBDBA /* PBXTargetDependency */,
 			);
 			name = "Pods-QuizCardApp";
 			productName = "Pods-QuizCardApp";
@@ -260,7 +318,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				416BC682319D01703A5BA3580291FF78 /* PBXTargetDependency */,
+				8A4702F20CE0E3C52737BC7361B411BF /* PBXTargetDependency */,
 			);
 			name = "Pods-QuizCardAppTests";
 			productName = "Pods-QuizCardAppTests";
@@ -292,12 +350,13 @@
 				DEFA3D43F703C9E08F76A83B3816854E /* Pods-QuizCardApp */,
 				BA73BC0EB7D86144C2E7323B3D0EE9EA /* Pods-QuizCardApp-QuizCardAppUITests */,
 				F053ADA2FB0078BF54AF3DE6C4EDF9A1 /* Pods-QuizCardAppTests */,
+				52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1029A9503456A579AD7B78E845A9AA8D /* Resources */ = {
+		0D05109153E189A219B004C86D6E6E47 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -311,7 +370,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DA5A50A6D86DD7D4459BA7550F3C9134 /* Resources */ = {
+		F5E631ABBE4389CCBB627E9D63051594 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -329,35 +388,47 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7489BDBB945A645E7209EB9EC6918717 /* Sources */ = {
+		3C3A346111274CF33D92212FF43861ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02D506B5D839E71E8704F900D5925E37 /* Pods-QuizCardApp-QuizCardAppUITests-dummy.m in Sources */,
+				8DFAE9B9A0993BDA2F80D921A2BC8CF8 /* Pods-QuizCardApp-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A4C2AEFF1CE0EE8F6E4EC00A66C53B08 /* Sources */ = {
+		C4776487704963A163EDBC0D26EFB38E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3862D946FE9E66FFC0CCBC8633397CA /* Pods-QuizCardApp-dummy.m in Sources */,
+				6C69806298655D0B53BFF47263BCD7AE /* Pods-QuizCardApp-QuizCardAppUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		416BC682319D01703A5BA3580291FF78 /* PBXTargetDependency */ = {
+		0EAA8916F70ABA8DA3DF64976300553C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = 7380D2AA2FEE02148A1DF42A0C00D4E2 /* PBXContainerItemProxy */;
+		};
+		191DACFCE1550069B5793C5BA81FBDBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = FA9A3E620CA1D3F7134BB366466AB7BF /* PBXContainerItemProxy */;
+		};
+		8A4702F20CE0E3C52737BC7361B411BF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-QuizCardApp";
 			target = DEFA3D43F703C9E08F76A83B3816854E /* Pods-QuizCardApp */;
-			targetProxy = 6CB520A50CF2722ECF0F5CB008109316 /* PBXContainerItemProxy */;
+			targetProxy = 52136FACF1D022A7E36EADCE15A23BB8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		60A7D19CD7DB610D4558A3306B2E1DB3 /* Release */ = {
+		02E72BE047AD96849342B591D7E561CE /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A8DCAFCD20EF561AF49BFC1C129D66B6 /* Pods-QuizCardApp.release.xcconfig */;
 			buildSettings = {
@@ -523,9 +594,26 @@
 			};
 			name = Debug;
 		};
-		8C305DE981B4521536E4DD0DAFF6C74B /* Release */ = {
+		AD81E62ACCB0B7A923FC8AA288F9921E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32BF0E0D9D601D43D7D12427C9B7670F /* Pods-QuizCardApp-QuizCardAppUITests.release.xcconfig */;
+			baseConfigurationReference = 7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B00FFFDEDD7619935CEADB7FB06FE7EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B07B56565989B135ED14E5667E4B4804 /* Pods-QuizCardApp-QuizCardAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -555,11 +643,10 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		B4FC3467607743E90F70701925905BAB /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -636,7 +723,45 @@
 			};
 			name = Debug;
 		};
-		C92725F8719876923211291811ED4BE2 /* Debug */ = {
+		C3B7D40FD8C57A3546FA589D459E4F0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32BF0E0D9D601D43D7D12427C9B7670F /* Pods-QuizCardApp-QuizCardAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QuizCardApp-QuizCardAppUITests/Pods-QuizCardApp-QuizCardAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QuizCardApp-QuizCardAppUITests/Pods-QuizCardApp-QuizCardAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D62A31F5FC46679EE4CD30E338AC3661 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 39BE92638D23F3C6F0BC424DFA026BBC /* Pods-QuizCardApp.debug.xcconfig */;
 			buildSettings = {
@@ -673,40 +798,19 @@
 			};
 			name = Debug;
 		};
-		D28F99E44F7E9F5758A2BE5152BC98A7 /* Debug */ = {
+		EADD1F50ABC8096A0D6CB18822BB4EE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B07B56565989B135ED14E5667E4B4804 /* Pods-QuizCardApp-QuizCardAppUITests.debug.xcconfig */;
+			baseConfigurationReference = 3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-QuizCardApp-QuizCardAppUITests/Pods-QuizCardApp-QuizCardAppUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-QuizCardApp-QuizCardAppUITests/Pods-QuizCardApp-QuizCardAppUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -731,20 +835,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6E3BEEDD30CA5E49E397B312292D89CD /* Build configuration list for PBXNativeTarget "Pods-QuizCardApp-QuizCardAppUITests" */ = {
+		AC949C1001A0C4EFCB96AF19304A97EC /* Build configuration list for PBXNativeTarget "Pods-QuizCardApp-QuizCardAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D28F99E44F7E9F5758A2BE5152BC98A7 /* Debug */,
-				8C305DE981B4521536E4DD0DAFF6C74B /* Release */,
+				B00FFFDEDD7619935CEADB7FB06FE7EC /* Debug */,
+				C3B7D40FD8C57A3546FA589D459E4F0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B69E22A460D3B4F4387F8E5F53DBB778 /* Build configuration list for PBXNativeTarget "Pods-QuizCardApp" */ = {
+		AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C92725F8719876923211291811ED4BE2 /* Debug */,
-				60A7D19CD7DB610D4558A3306B2E1DB3 /* Release */,
+				EADD1F50ABC8096A0D6CB18822BB4EE4 /* Debug */,
+				AD81E62ACCB0B7A923FC8AA288F9921E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF7AC9CA8604FBFA06E3A426F3292763 /* Build configuration list for PBXNativeTarget "Pods-QuizCardApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D62A31F5FC46679EE4CD30E338AC3661 /* Debug */,
+				02E72BE047AD96849342B591D7E561CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
